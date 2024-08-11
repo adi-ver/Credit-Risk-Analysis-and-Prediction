@@ -6,3 +6,6 @@ Data Analysis was performed to visualize the trends and relationships among diff
 
 #### Predictive Modelling
 Logistic Regression is widely used Machine Learning algorithm for binary classification which yielded good results and then succesively Decision Tree, Random Forest and XGBoost was used for classification. Although Random Forest and XGBoost which are widely used for complex data, here their performance was similar to Logistic Regression and Decision Tree, possibly because of Hyperparameter Tuning to get the best estimator for each Algorith. The confusion matrix for each model is shown in the other folder. The code file is also uploaded for refernce.
+
+#### NOTE
+The 'checking_balance' and 'saving_balance' was dropped from the dataset because they consisted of high number of non-overlappping missing values in them, ALternate analysis can be performed to see the effect when these features are included in the ML Prediction after dropping the rows with missing values.
